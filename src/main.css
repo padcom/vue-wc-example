@@ -1,0 +1,6 @@
+@import "@padcom/nano-css-reset";
+
+/* This variable can be used inside of a custom element - in this project it is HelloWorld.ce.vue */
+:root {
+  --hello-clr: green;
+}

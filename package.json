@@ -1,0 +1,48 @@
+{
+  "name": "@padcom/vue-wc-example",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "Matthias Hryniszak <padcom@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "vite",
+    "build": "vite build",
+    "build:watch": "vite build -w",
+    "preview": "vite build && vite preview"
+  },
+  "devDependencies": {
+    "@padcom/eslint-config-vue": "^0.10.1",
+    "@padcom/nano-css-reset": "^0.2.0",
+    "@padcom/tsconfig": "^0.0.2",
+    "@padcom/vite-config-vue": "^0.1.0",
+    "@vitejs/plugin-vue": "^5.1.4",
+    "@vue/tsconfig": "^0.5.1",
+    "@vueuse/core": "^11.1.0",
+    "autoprefixer": "^10.4.20",
+    "postcss-nesting": "^13.0.1",
+    "typescript": ">= 3.3.0 < 5.2.0",
+    "vite": "^5.4.10",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-svg-loader": "^5.1.0",
+    "vue": "^3.5.12",
+    "vue-i18n": "^9.13.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@padcom/eslint-config-vue"
+    ],
+    "rules": {
+      "vue/no-setup-props-destructure": 0
+    }
+  },
+  "homepage": "https://github.com/padcom/vue-wc-example#readme",
+  "bugs": {
+    "url": "https://github.com/padcom/vue-wc-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/padcom/vue-wc-example.git"
+  }
+}
